@@ -41,11 +41,11 @@ configurations.
 3. Update the openai_api_key variable in the code with your valid OpenAI API key.
 4. Configure the Neo4j connection in the graph variable by providing the appropriate URL,
 username, and password.
-5. Run database migrations using python manage.py migrate.
-6. Start the Django development server using python manage.py runserver.
+5. Run database migrations using <code>python manage.py migrate</code>.
+6. Start the Django development server using <code>python manage.py runserver</code>.
 
 **Usage**
-1. Access the chatbot web interface by navigating to the provided URL in a web browser.
+1. Access the chatbot web interface by navigating to the provided URL in a web browser. 
 2. If you are not already authenticated, click on the "Login" link and enter your credentials or click
 on the "Register" link to create a new account.
 3. Once authenticated, you can interact with the chatbot by entering messages in the input field
@@ -55,7 +55,8 @@ and pressing Enter or clicking the "Send" button.
 6. User information is stored as nodes in Neo4j, with a relationship created between the user node
 and the A.T.O.M node.
 7. You can log out from the chatbot by clicking on the "Logout" link.
-Project Structure
+
+**Project Structure**
 The project contains the following files:
 1. models.py: Defines the database models, including the Chat model for storing user
 interactions.
@@ -63,7 +64,9 @@ interactions.
 3. main.html: HTML template for the chatbot interface.
 4. login.html: HTML template for the login page.
 5. register.html: HTML template for the registration page.
-Conclusion
+
+
+**Conclusion**
 A.T.O.M is a chatbot built using Django, AIML, Pytholog, OpenAI API, and Neo4j. It provides
 conversational interaction with users and incorporates AI-powered response generation. By
 following the installation and usage instructions, users can interact with the chatbot and receive
